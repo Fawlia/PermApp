@@ -1,5 +1,5 @@
 var randomScalingFactor = function(){ return Math.round(Math.random()*1000)};
-	
+
 	var lineChartData = {
 		labels : ["January","February","March","April","May","June","July"],
 		datasets : [
@@ -26,7 +26,7 @@ var randomScalingFactor = function(){ return Math.round(Math.random()*1000)};
 		]
 
 	}
-		
+
 	var barChartData = {
 		labels : ["January","February","March","April","May","June","July"],
 		datasets : [
@@ -75,7 +75,7 @@ var randomScalingFactor = function(){ return Math.round(Math.random()*1000)};
 			}
 
 		];
-			
+
 	var doughnutData = [
 				{
 					value: 300,
@@ -103,7 +103,7 @@ var randomScalingFactor = function(){ return Math.round(Math.random()*1000)};
 				}
 
 			];
-			
+
 	var radarData = {
 	    labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
 	    datasets: [
@@ -129,7 +129,7 @@ var randomScalingFactor = function(){ return Math.round(Math.random()*1000)};
 	        }
 	    ]
 	};
-	
+
 	var polarData = [
 		    {
 		    	value: 300,
@@ -155,6 +155,5 @@ var randomScalingFactor = function(){ return Math.round(Math.random()*1000)};
 		    	highlight: "#f6495f",
 		    	label: "Red"
 		    }
-		
-	];
 
+	];
